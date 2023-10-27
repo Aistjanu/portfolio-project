@@ -2,10 +2,14 @@
   --heading-font-family: "Della Respira", serif;
   --subheading-font-family: "Open Sans", sans-serif;
   --primary-color: #c3b9cc;
+  --main-gradient: linear-gradient(
+    0deg,
+    rgb(236, 232, 244) 0%,
+    rgb(253, 248, 253) 100%
+  );
 }
 
 body {
-  margin: 0;
   font-family: sans-serif;
 }
 
@@ -79,8 +83,7 @@ h2 {
 }
 
 .container {
-  padding: 50px;
-  margin-top: 50px;
+  padding: 20px;
 }
 
 .skills-all,
@@ -132,4 +135,20 @@ form {
 }
 .contact-form-button:hover {
   background-color: #5e5368;
+}
+
+@media (max-width: 576px) {
+  .hero-content {
+    padding: 20px;
+  }
+  .center-on-mobile {
+    text-align: center;
+  }
+  .skills-all,
+  .socials-all {
+    justify-content: center;
+  }
+  .social {
+    margin: 0.5rem;
+  }
 }
