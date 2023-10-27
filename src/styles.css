@@ -83,7 +83,8 @@ h2 {
   margin-top: 50px;
 }
 
-.skills-all {
+.skills-all,
+.socials-all {
   display: flex;
   flex-wrap: wrap;
 }
@@ -96,6 +97,13 @@ h2 {
   border-radius: 5px;
 }
 
+.social {
+  padding: 1rem;
+  margin: 1rem;
+  background: var(--primary-color);
+  border-radius: 5px;
+}
+
 .learn-more-button {
   color: #2f2a31;
   font-size: 15px;
@@ -104,5 +112,24 @@ h2 {
   border: none;
 }
 .learn-more-button:hover {
+  background-color: #5e5368;
+}
+
+form {
+  font-family: var(--subheading-font-family);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.contact-form-button {
+  margin: 1rem;
+  padding: 1rem 2rem;
+  color: #2f2a31;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: var(--primary-color);
+  border: none;
+}
+.contact-form-button:hover {
   background-color: #5e5368;
 }
