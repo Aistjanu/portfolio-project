@@ -76,10 +76,14 @@ h2 {
 }
 .nav-item {
   font-family: var(--subheading-font-family);
-  color: var(--primary-color);
   font-size: 17px;
-  font-weight: 200;
+  font-weight: 400;
   padding-right: 30px;
+}
+
+.nav-item a:hover {
+  color: var(--primary-color);
+  font-weight: 500;
 }
 
 .container {
